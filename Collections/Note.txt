@@ -1,0 +1,24 @@
+The Java Collections Framework supports two types of containers:
+ ■ One for storing a collection of elements is simply called a collection.
+ ■ The other, for storing key/value pairs, is called a map. 
+
+Maps are efficient data structures for quickly searching an element using a key.
+
+Collections:
+ ■ Sets store a group of nonduplicate elements.
+ ■ Lists store an ordered collection of elements.
+ ■ Stacks store objects that are processed in a last-in, first-out fashion.
+ ■ Queues store objects that are processed in a first-in, first-out fashion.
+ ■ PriorityQueues store objects that are processed in the order of their priorities.
+
+The common features of these collections are defined in the interfaces, and implementations are provided in concrete classes. 
+
+All the interfaces and classes defined in the Java Collections Framework are grouped in the java.util package.
+
+---->ITERATOR<-----
+
+Each collection is Iterable. 
+
+You can obtain its Iterator object to traverse all the elements in the collection.
+
+Iterator is a classic design pattern for walking through a data structure without having to expose the details of how data is stored in the data structure.
